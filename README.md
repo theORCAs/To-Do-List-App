@@ -4,9 +4,9 @@ The objective is to build a simple To-Do list app, which is generally used for i
 -	Main dashboard with list of To-Dos
 -	Clicking on a single To-do should open up and show full details of the To-do
 -	Interface to add a new To-Do item, with the following information:
-        -	Title
-        -	Description
-        -	Optional Due Date/Time field
+        *	Title
+        *	Description
+        *	Optional Due Date/Time field
 -	User should be able to delete the to-do from the to-do details or the main dashboard page
 Stretch-goals
 
@@ -17,16 +17,16 @@ In case the candidate has completed the other requirements quickly and wants to 
 -	Fuzzy search on the title/description of the To-do list (OSS libraries are available for this)
 Technology Stack
 -	Backend:
-        -	NodeJS/Typescript
-        -	NestJS https://nestjs.com/ 
-        -	(Optional) Unit tests
+        *	NodeJS/Typescript
+        *	NestJS https://nestjs.com/ 
+        *	(Optional) Unit tests
 -	Database
-        -	TypeORM or SequelizeORM 
-        -	PostgreSQL 
+        *	TypeORM or SequelizeORM 
+        *	PostgreSQL 
 -	Front-end
-        -	React/Typescript
-        -	ANY UI library can be used (e.g. Bootstrap, MaterialUI, SemanticUI etc)
-        -	(Optional) Redux
+        *	React/Typescript
+        *	ANY UI library can be used (e.g. Bootstrap, MaterialUI, SemanticUI etc)
+        *	(Optional) Redux
 -	Typescript must be used for the react and NestJS projects
 Other requirements
 -	UI design is left completely up-to the candidate
