@@ -32,3 +32,8 @@ Other requirements
 -	UI design is left completely up-to the candidate
 -	Git must be used to upload the completed code
 -	Minimum documentation should be given in the readme.md so that another developer can download the code and run it locally
+
+## Backend
+        *	NodeJS/Typescript
+        *	NestJS https://nestjs.com/ 
+        *	(Optional) Unit tests with JEST
