@@ -1,5 +1,43 @@
+GET http://localhost:8081/todolist
 
-GET http://localhost:3000/items
+// Waiting for the result is goodbye. It is easy and usable
+
+###
+POST http://localhost:8081/todolist
+content-type: application/json
+
+[
+    {
+    "title":"dolphin1",
+    "descriptipn":"dolphin description",
+    "priority":1,
+    "dueDate":"25/12/2020"
+}, {
+    "title":"dolphin2",
+    "descriptipn":"dolphin description",
+    "priority":1,
+    "dueDate":"25/12/2020"
+}, {
+    "title":"dolphin3",
+    "descriptipn":"dolphin description",
+    "priority":1,
+    "dueDate":"25/12/2020"
+}, {
+    "title":"dolphin5",
+    "descriptipn":"dolphin description",
+    "priority":1,
+    "dueDate":"25/12/2020"
+}, {
+    "title":"dolphin6",
+    "descriptipn":"dolphin description",
+    "priority":1,
+    "dueDate":"25/12/2020"
+}
+]
+// Waiting for the result is goodbye. It is easy and usable
+
+###
+GET http://localhost:8081/todolist/3
 
 // Waiting for the result is goodbye. It is easy and usable
 
