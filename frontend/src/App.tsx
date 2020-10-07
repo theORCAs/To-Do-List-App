@@ -8,7 +8,6 @@ import './App.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Select from "react-select";
-import { log } from 'util';
 
 function App() {
   const [todoList, setTodoList] = useState<any[]>([]);
@@ -101,18 +100,17 @@ function App() {
   return (
     <div className="App">
       <ToastContainer draggable pauseOnHover newestOnTop={true} position="top-center" />
-      <h1>To Do List</h1>
-      <input type="text" placeholder="Write here your search text..." required name="code" value={searchValue} onChange={e => setSearchValue(e.target.value)} className="form-control" />
+      <h1>To Do List App</h1>
+      <input type="text" placeholder="Write here your search text(title,description or duedate)..." required name="code" value={searchValue} onChange={e => setSearchValue(e.target.value)} className="form-control" />
       <button
-        style={{ width: "%50", height: "60px" }}
         className="btn btn-info"
         onClick={() => setShowTodoAppInsertScreen(1)}
       >Add New Item </button>
 
       <br></br>
       <table>
-        <tbody>
-          {filteredTodoList.map((e) => <tr className="show-grid"><td onClick={() => fetchRowDetails(e.id)} key={e.id}>{e.title}</td><td><Button onClick={() => deleteTodoFromList(e.id)} className="delete-button"><span>Delete</span></Button></td></tr>)}
+        <tbody className="show-grid">
+          {filteredTodoList.map((e, index) => <tr className="tableRow"><td className="longColumn" onClick={() => fetchRowDetails(e.id)} key={e.id}>{index + 1} {e.title} (Priority: {e.priority})</td><td><Button onClick={() => deleteTodoFromList(e.id)} className="delete-button"><span>Delete</span></Button></td></tr>)}
         </tbody>
       </table>
 

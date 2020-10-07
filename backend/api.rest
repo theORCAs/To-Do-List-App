@@ -8,29 +8,29 @@ content-type: application/json
 
 [
     {
-    "title":"dolphin1",
-    "descriptipn":"dolphin description",
+    "title":"Study Maths",
+    "descriptipn":"Study Maths",
     "priority":1,
-    "dueDate":"25/12/2020"
+    "dueDate":"01/12/2020"
 }, {
-    "title":"dolphin2",
-    "descriptipn":"dolphin description",
-    "priority":1,
-    "dueDate":"25/12/2020"
+    "title":"Study Physics",
+    "descriptipn":"Study Physics",
+    "priority":2,
+    "dueDate":"10/12/2020"
 }, {
-    "title":"dolphin3",
-    "descriptipn":"dolphin description",
-    "priority":1,
-    "dueDate":"25/12/2020"
+    "title":"Study Geography",
+    "descriptipn":"Study Geography",
+    "priority":3,
+    "dueDate":"15/12/2020"
 }, {
-    "title":"dolphin5",
-    "descriptipn":"dolphin description",
-    "priority":1,
-    "dueDate":"25/12/2020"
+    "title":"Study Art",
+    "descriptipn":"Study Art",
+    "priority":4,
+    "dueDate":"20/12/2020"
 }, {
-    "title":"dolphin6",
-    "descriptipn":"dolphin description",
-    "priority":1,
+    "title":"Do Homeworks",
+    "descriptipn":"Do Homeworks",
+    "priority":5,
     "dueDate":"25/12/2020"
 }
 ]
@@ -41,3 +41,6 @@ GET http://localhost:8081/todolist/3
 
 // Waiting for the result is goodbye. It is easy and usable
 
+//control for the api controller
+###
+GET http://localhost:8081/

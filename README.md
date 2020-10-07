@@ -37,3 +37,23 @@ Other requirements
         *	NodeJS/Typescript
         *	NestJS https://nestjs.com/ 
         *	(Optional) Unit tests with JEST
+        *       TypeORM for Object-relational mapping with database
+## Database
+        *       PostgreSQL(depends on the user's choice)
+## Frontend
+        *       ReactJS/Typescipt
+        *       React Hooks
+        *       Bootstrap
+        *       React-Modal for popups
+        *       react-select for easy and useful combobox selection 
+        *       toastify for error messaging operations
+
+## Testing
+        *       Jest
+
+## User Screen Operations
+        *       User Can add new todo to list with Add new Item button. It opens a popup and we select and fill the info and sent to server create api
+        *       Added priority as a combobox for adding item to todo list 
+        *       Search textbox added on the top field. User can searc writing title, description or duedate and it will search easily all of todos from the list
+        *       User can delete items from the list using Delete button
+        *       User can see the details of issues by clicking on related issue line 

@@ -8,8 +8,22 @@
 table {
   border-collapse:separate; 
   border-spacing: 0 1em;
+  width: 100%;
+  table-layout: fixed;
+  border-style: solid;
+  border-width: 00.01rem;
+  border-color: darkslateblue;
 }
 
+.longColumn{
+  width: 90%;
+}
+
+.tableRow{
+  border-style: solid;
+  border-width: 00.01rem;
+  border-color: darkslateblue;
+}
 tr {
   border-style: solid white 30px; /* change "white" to your background color */
 }
@@ -22,9 +36,16 @@ tr {
   font-size: larger;
   padding:3px;
   align-items: left;
+  text-align: left;
   width: 80%;
 }
 
+.btn-info{
+  width: 100%;
+  background-color:blue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 .delete-button{
   align-items:flex-end;
